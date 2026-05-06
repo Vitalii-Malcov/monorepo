@@ -1,0 +1,25 @@
+  972  exit
+  973  cd /opt
+  974  pwd
+  975  ls
+  976  cd /opt/06032026-ptm
+  977  cd /opt/060326-ptm
+  978  ls 
+  979  cd /opt/030626-ptm/Vitalii_Malcov
+  980  pwd
+  981  cd /opt/060326-ptm/Vitalii_Malcov/
+  982  pwd
+  983  ls 
+  984* history | tail -n0 | grep -E 'cd|ls|pwd|' > history.txt
+  985  cat history.txt
+  986  history | tail -n 10 | grep -E 'cd|ls|pwd' > history.txt
+  987  cat history.txt
+  988  exort_file history.txt
+  989  export_file history.txt
+  990  cat history-txt
+  991  cat history.txt
+  992  ls 
+  993  ls -la
+  994  cat .process_management
+  995  ps -fp 3156
+  996  history | tail -n 25 > history.txt
