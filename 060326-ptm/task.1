@@ -1,0 +1,19 @@
+#!/bin/bash
+
+folder=$(date +%F)
+mkdir "$folder"
+
+for i in {1..100}
+do
+    filename=$(printf "file%03d.txt" "$i")
+    echo "Это файл №$i" > "$folder/$filename"
+done
+
+total_size=$(du -cb "$folder"/* | tail -1 | awk '{print $1}')
+
+echo "Суммарный размер файлов: $total_size байт"
+
+if [ "$total_size" -gt 1048576 ]; then
+    rm "$folder"/*
+    echo "ВНИМАНИЕ! Размер превышает 1 МБ. Все файлы удалены."
+fi
