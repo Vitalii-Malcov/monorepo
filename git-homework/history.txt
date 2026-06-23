@@ -1,0 +1,203 @@
+    1  git config --gkobal user.name "Vitalii_Malcov"
+    2  gig config --global user.emai "vitalimalkov003@gmail.com"
+    3  git config --global user.emai "vitalimalkov003@gmail.com"
+    4  git config --global -l
+    5  git config --global user.name "Vitalii_Malcov"
+    6  git config --global -l
+    7  git config --global user.emai "VitalikMalkov003@gmail.com"
+    8  git config --global -l
+    9  clear
+   10  mkdir mygit
+   11  cd /mygit
+   12  mkdir /mygit
+   13  cd mygit
+   14  date >> date.txt
+   15  ls
+   16  git init
+   17  git add .
+   18  git commit -m "initel commit"
+   19  la -al
+   20  ls -al
+   21  git status
+   22  git log
+   23  git commit -m "nue commit"
+   24  git config --global user.email "VitalikMalkov003@gmail.com"
+   25  git config --global user.name "Vitalii_Malcov"
+   26  git commit -m "nue commit"
+   27  git remote add origin git@github.com:vitalikmalkov003-qaz/Git-ITCareerHum.git
+   28  [200~git branch -M main~
+   29  git branch -M main
+   30  git push -u origin main
+   31  clear
+   32  cd ..
+   33  ls -al
+   34  git clone git@github.com:vitalikmalkov003-qaz/Git-ITCareerHum_Paython.git
+   35  ls -al
+   36  cd Git-ITcareerHum_Paython
+   37  git init
+   38  ls -al
+   39  clear
+   40  mkdir git_intro
+   41  cd git_intro
+   42  ls -al
+   43  ls
+   44  git init
+   45  git add .
+   46  git status
+   47  git commit -m "Added photo"
+   48  git branch -M main
+   49  git remote add origin git@github.com:vitalikmalkov003-qaz/git_intro.git
+   50  git push -u origin main
+   51  clear
+   52  add
+   53  git status
+   54  ls -al
+   55  git log
+   56  git branch Test
+   57  git log
+   58  git status
+   59  ls -al
+   60  cd 060326-ptm
+   61  ls -al
+   62  cd 
+   63  ls -al
+   64  git log
+   65  git branch Test
+   66  git branch -v
+   67  git checkout main
+   68  git checkout -b NewBranch
+   69  git branch -v
+   70  git log 
+   71  ls -al
+   72  cd mygit
+   73  git branch -d Test
+   74  ls -al
+   75  git branch
+   76  cat dare.txt
+   77  git status
+   78  cat date.txt
+   79  git status
+   80  git branch -v
+   81  echo "Text from NewBranch" >> date.txt
+   82  cat date.txt 
+   83  git add date.txt 
+   84  git commit -m "Change date.txt in NewBranch"
+   85  git branch -v
+   86  git checkout main
+   87  echo "Text from MAIN Branch" >> date.txt 
+   88  cat date.txt 
+   89  git add date.txt
+   90  git commit -m "Change date.txt in main"
+   91  git merge NewBranch
+   92  cat date.txt 
+   93  git add date.txt 
+   94  git commir -m "Resolve merge conflict"
+   95  git commit -m "Resolve merge conflict"
+   96  cat date.txt 
+   97  git log --oneline --greph --all
+   98  git log --oneline --graph --all
+   99  nano date.txt 
+  100  cat date.txt 
+  101  git add date.txt 
+  102  git commit -m "Fix merge conflict correctly"
+  103  git status
+  104  git log --oneline --graph --all
+  105  git checkout NewBranch
+  106  ls -al
+  107  echo "Hallo from NewBranch" > new.txt
+  108  ls -al
+  109  cat new.txt
+  110  git commit -m "Add new.txt in NewBranch"
+  111  git add new.txt 
+  112  git commit -m "Add new.txt in NewBranch"
+  113  git checkout main
+  114  ls
+  115  ls -al
+  116  git checkout NewBranch
+  117  ls -al
+  118  git push origin NewBranch 
+  119  git status
+  120  git checkout -b Test-Branch
+  121  git branch -v
+  122  git log
+  123  git checkout -d Test-Branch 
+  124  git checkout main
+  125  git checkout -d Test-Branch 
+  126  git checkout main
+  127  git checkout NewBranch 
+  128  git branch
+  129  git checkout main
+  130  git checkout -d Test-Branch 
+  131  git checkout NewBranch 
+  132  git checkout -d Test-Branch 
+  133  git checkout main
+  134  git status
+  135  ls -al
+  136  git branch
+  137  git checkout -D Test-Branch 
+  138  git branch -d Test-Branch 
+  139  git branch 
+  140  git branch -d Test-Branch 
+  141  git branch -D Test-Branch 
+  142  git branch 
+  143  git push origin main
+  144  git status
+  145  ssh ec2-user@linux.itcareerhub.de
+  146  clear
+  147  ssh ec2-user@linux.itcareerhub.de
+  148  nano cleanup.sh
+  149  chmod +x cleanup.sh
+  150  ./cleanup.sh 
+  151  nano cleanup.sh 
+  152  nano cleanup.sh 
+  153  ./cleanup.sh 
+  154  clear
+  155  scp ./cleanup.sh ec2-user@linux.itcareerhub.de:/opt/060326-ptm/Vitalii_Malcov/
+  156  ssh ec2-user@linux.itcareerhub.de
+  157  ls /l
+  158  ls -l
+  159  cd /opt/060326-ptm/Vitalii_Malcov/
+  160  nano myfirsbashcript.sh
+  161  chmod +x myfirsbashcript.sh 
+  162  ./myfirsbashcript.sh 
+  163  ./myfirsbashcript.sh > result.txt
+  164  cat result.txt 
+  165  ssh ec2-user@linux.itcareerhub.de
+  166  git clon git@github.com:vitalikmalkov003-qaz/Fork-Test.git
+  167  git clone git@github.com:vitalikmalkov003-qaz/Fork-Test.git
+  168  ls -l
+  169  cd Fork-Tast
+  170  cd Fork-Test/
+  171  ls -al
+  172  git branch -a 
+  173  git clone git@github.com:vitalikmalkov003-qaz/git-homework.git
+  174  cd git-homework
+  175  git status
+  176  echo "# Git Home_work" > Readme.txt
+  177  ls 
+  178  touch .gitignor
+  179  ls 
+  180  ls -al
+  181  rm .gitignor
+  182  touch .gitignore
+  183  ls -al
+  184  git status
+  185  git add .
+  186  git commit -m "Initial commit"
+  187  git checkout -b feature
+  188  git branch
+  189  echo "Feature btanch changes" >> Readme.txt
+  190  echo "*.log" >> .gitignore
+  191  git status
+  192  git add .
+  193  git status
+  194  git commit -m "Update readme and gitignore"
+  195  git push -u origin feature
+  196  git commit --amend -m "update readme and gitignore ammend"
+  197  git push --force
+  198  git log --oneline
+  199  git checkout main
+  200  git merge feature
+  201  git pusg origin main
+  202  git push origin main
+  203  history > history.txt
