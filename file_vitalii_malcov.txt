@@ -1,0 +1,54 @@
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        472M     0  472M   0% /dev
+tmpfs           483M     0  483M   0% /dev/shm
+
+
+===== SCRIPT CONTENT =====
+#!/bin/bash
+
+USER="Vitalii"
+
+echo "User: $USER"
+echo "Script was launched from directory: $(pwd)"
+
+===== COMMAND HISTORY =====
+  720  chmod +x myfirstbashscript.sh
+  721  ls -l myfirstbashscript.sh
+  722  ./myfirstbashscript.sh
+  723  cat ~/myfirstbashscript.sh >> /tmp/file_vitalii_malcov.txt 
+  724  history >> /tmp/file_vitalii_malcov.txt 
+  725  cat /tmp/file_vitalii_malcov.txt 
+  726  export_file /tmp/file_v
+  727  export_file /tmp/file_vitalii_malcov.txt 
+  728  ls -l /tmp/file*
+  729  cat /tmp/file.txt
+  730  cat /tmp/file_vitalii_malcov.txt 
+  731  ls -l /tmp/file*
+  732  cat /tmp/file_vitalii_malcov.txt
+  733  df -h | head -n 3 > /tmp/file_vitalii_malcov.txt
+  734  echo "" >> /tmp/file_vitalii_malcov.txt
+  735  echo "===== SCRIPT CONTENT =====" >> /tmp/file_vitalii_malcov.txt
+  736  cat ~/myfirstbashscript.sh >> /tmp/file_vitalii_malcov.txt
+  737  echo "" >> /tmp/file_vitalii_malcov.txt
+  738  echo "===== COMMAND HISTORY =====" >> /tmp/file_vitalii_malcov.txt
+  739  history | tail -n 20 >> /tmp/file_vitalii_malcov.txt
+  724  history >> /tmp/file_vitalii_malcov.txt 
+  725  cat /tmp/file_vitalii_malcov.txt 
+  726  export_file /tmp/file_v
+  727  export_file /tmp/file_vitalii_malcov.txt 
+  728  ls -l /tmp/file*
+  729  cat /tmp/file.txt
+  730  cat /tmp/file_vitalii_malcov.txt 
+  731  ls -l /tmp/file*
+  732  cat /tmp/file_vitalii_malcov.txt
+  733  df -h | head -n 3 > /tmp/file_vitalii_malcov.txt
+  734  echo "" >> /tmp/file_vitalii_malcov.txt
+  735  echo "===== SCRIPT CONTENT =====" >> /tmp/file_vitalii_malcov.txt
+  736  cat ~/myfirstbashscript.sh >> /tmp/file_vitalii_malcov.txt
+  737  echo "" >> /tmp/file_vitalii_malcov.txt
+  738  echo "===== COMMAND HISTORY =====" >> /tmp/file_vitalii_malcov.txt
+  739  history | tail -n 20 >> /tmp/file_vitalii_malcov.txt
+  740  chmod g+wx,o-rwx /tmp/file_vitalii_malcov.txt
+  741  cat /tmp/file_vitalii_malcov.txt
+  742  ls -l /tmp/file_vitalii_malcov.txt
+  743  history | tail -n 20 >> /tmp/file_vitalii_malcov.txt
